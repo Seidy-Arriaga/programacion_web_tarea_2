@@ -1,0 +1,114 @@
+body {
+    color: #0000ff; 
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #f0f0f0; 
+    margin: 20px;
+}
+
+h1 {
+    color: #ff0000; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: #333333; 
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+body {
+    color: #0000ff; /* Azul */
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin: 20px;
+}
+
+h1 {
+    color: #ff0000; /* Rojo */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: #333333; /* Gris oscuro */
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.resaltado {
+    color: #000000; /* Negro */
+    background-color: #ffff00; /* Amarillo */
+    font-style: italic; /* Cursiva */
+}
+
+#estiloEspecial {
+    color: #ffffff; /* Blanco */
+    background-color: #007bff; /* Azul */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para el párrafo de la pregunta */
+.question {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0000ff; /* Azul */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el párrafo de la respuesta */
+.answer {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #00ff00; /* Verde */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Clase .titulopagina que inicializa las propiedades del borde */
+.titulopagina {
+    border-width: 5px; /* Grosor del borde */
+    border-style: double; /* Estilo del borde */
+    border-color: #ff4500; /* Color del borde (naranja rojizo) */
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para el elemento <pre> */
+.code-block {
+    background-color: #ffff00; /* Fondo amarillo */
+    border: 2px solid #000000; /* Borde negro de 2 píxeles */
+    padding: 20px; /* Separación de 20 píxeles entre el borde y el contenido */
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+    overflow: auto; /* Habilita el desplazamiento si el contenido es muy grande */
+}
+
+/* Estilo para los párrafos con margen de cero píxeles */
+.no-margin {
+    margin: 0; /* Establece el margen a cero píxeles */
+    border-width:1px;
+  border-style:solid;
+  border-color:#9b5454;
+}
+
+/* Estilo para las listas */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+body {
+    background-image:url(fondo.jpg);
+  }
+
+  p {
+    font: italic bold 16px/1.5 Arial, sans-serif;
+  }  
